@@ -12,6 +12,7 @@ int sum_to_n(int num) {
 
 void printSum() {
   char line[10];
+  char buf[50];
   printf("Enter a number: ");
   fgets(line, 10, stdin);
 
